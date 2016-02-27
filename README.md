@@ -18,7 +18,7 @@ Just import it:
 import i18n from 'micro-i18n'
 ```
 
-If you are using it directly in the browser, you can access it with th i18n global.
+If you are using it directly in the browser, you can access it with the i18n global.
 
 ## Api
 
