@@ -1,0 +1,33 @@
+{
+  "name": "micro-i18n",
+  "version": "1.0.0",
+  "description": "basic js micro library for i18n, with support for placeholders and multiple plural forms",
+  "main": "dist/micro-i18n.js",
+  "scripts": {
+    "test": "ava",
+    "build": "webpack"
+  },
+  "keywords": [
+    "i18n",
+    "translate",
+    "internationalization"
+  ],
+  "author": "Reinaldo Schiehll <rn.schiehll@gmail.com> (http://github.com/schiehll)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schiehll/micro-i18n.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "babel-loader": "^6.2.3",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.5.0",
+    "webpack": "^1.12.14"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  }
+}
