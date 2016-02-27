@@ -67,3 +67,6 @@ i18n.t('QUANTITY', {n: 1, what: 'duck'}) //1 duck
 i18n.t('QUANTITY', {n: 10, what: 'ducks'}) //10 ducks
 i18n.t('QUANTITY', {n: 10, what: i18n.t('MESSAGES', {n: 10})}) //10 messages
 ```
+## Fallback
+
+If a key is undefined it will be returned as fallback
