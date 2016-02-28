@@ -59,7 +59,7 @@ const ptBR = {
   } 
 }
 
-i18n.setLang(enUs)
+i18n.setLang(enUS)
 i18n.t('EASY') //easy
 ```
 ## Placeholders
