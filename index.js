@@ -11,12 +11,12 @@ export default class i18n {
       }
 
       if(typeof txt === 'undefined'){
-        console.warn('[i18n] Key not found.')
+        console.warn(`[i18n] Key "${key}" not found.`)
         return key
       }
 
       if(typeof txt === 'object'){
-        console.warn('[i18n] Key is a plural and expect a "n" argument.')
+        console.warn(`[i18n] Key "${key}" is a plural and expect a "n" argument.`)
         return key
       }
 
