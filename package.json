@@ -1,6 +1,6 @@
 {
   "name": "micro-i18n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "basic js micro library for i18n, with support for placeholders and multiple plural forms",
   "main": "dist/micro-i18n.js",
   "scripts": {
